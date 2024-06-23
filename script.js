@@ -268,7 +268,7 @@ async function sendMessage() {
       // Append context ID if relevant context found
       if (matchedContexts.length > 0) {
         const contextSourcesIds = matchedContexts.map(context => `${context.source.replace('.json', '')}/${context.id}`).join(', ');
-        botResponse += ` (${contextSourcesIds})`;
+        botResponse += ` (source: ${contextSourcesIds})`;
       }         
 
       generatedResponses.push(botResponse);
