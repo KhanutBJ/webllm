@@ -1,8 +1,575 @@
-{
-    "contexts": [
-      "The title is Rush, year is 2013, budget is 500000, earning is 300000, genre is action.",
-      "The movie Inception was released in 2010 and is directed by Christopher Nolan.",
-      "Avatar, released in 2009, is one of the highest-grossing films of all time."
-    ]
+[
+  {
+      "id": "ms-hack",
+      "title": "A Cloud Solution for Personalized Object Recognition",
+      "date": "13 June 2024",
+      "tags": ["AI", "Cloud", "Azure", "Accessibility", "Business"],
+      "category": "Project",
+      "description": "A cloud system that enables blind and visually-impaired people to teach and recognize personal objects",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://lh3.googleusercontent.com/drive-viewer/AKGpihZcNWaNLzmJ9S27JkLyd1l73u-qTnQFKcdOPvqip0u7Ln1GmEPOM_5AXhNbkKWwUS3gvcigbqHB85cJJhVV4FWDP0YOyDJsJYA=s1600-rw-v1",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "description": "bruh",
+              "position": "body"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": false
+  },
+  {
+      "id": "daily-brainy",
+      "title": "Daily Brainy: A Fully-automated Neuroscience Content Creator",
+      "date": "15 May 2024",
+      "tags": ["Python", "Automation", "Content creator", "LLM"],
+      "category": "Project",
+      "description": "I developed an automated system that edits and posts short videos about neuroscience daily on YouTube and Instagram",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": false
+  },
+  {
+      "id": "pmac-2024",
+      "title": "Prince Mahidol Award Conference 2024",
+      "date": "2 Feb 2024",
+      "tags": ["Conference", "Medicine", "Global health"],
+      "category": "Project",
+      "description": "I attended this prestigious global health conference on the topic of Geopolitics to learn more about Healthcare and Technology",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": false
+  },
+  {
+      "id": "brain-hack",
+      "title": "Brain Hackathon",
+      "date": "2 Feb 2024",
+      "tags": ["Pitching", "Business", "Neuroscience"],
+      "category": "Project",
+      "description": "I tried to solve this challenging problem of people with speech loss with a scalable solution",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": false
+  },
+  {
+      "id": "commed",
+      "title": "Take a Sip At Community Medicine",
+      "date": "2 Feb 2024",
+      "tags": ["Trip", "Medicine"],
+      "category": "Project",
+      "description": "This trip gave me with new perspectives on how lifestyle and culture influence health",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": false
+  },
+  {
+      "id": "brain-camp",
+      "title": "Brain Code Camp",
+      "date": "2 Feb 2024",
+      "tags": ["Summer school", "Project-based", "Neuroscience"],
+      "category": "Project",
+      "description": "My first try on fMRI and network analysis project",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": true
+  },
+  {
+      "id": "interface",
+      "title": "Intern at Interfaces",
+      "date": "11 Nov 2023",
+      "tags": ["Intern", "Machine learning", "Signal processing"],
+      "category": "Project",
+      "description": "I assisted a pHD. student in processing and classifying IMU signals",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": true
+  },
+  {
+      "id": "conrad",
+      "title": "Conrad Challenge",
+      "date": "21 Aug 2023",
+      "tags": ["Pitching", "Business", "Innovation"],
+      "category": "Project",
+      "description": "My introduction to integrating science with business",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": true
+  },
+  {
+      "id": "asc-2022",
+      "title": "Asian Science Camp",
+      "date": "21 Aug 2023",
+      "tags": ["Camp", "Science", "Nobel laureates"],
+      "category": "Project",
+      "description": "This event highlighted significance of foundations and sparked my passion for basic science research.",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": true
+  },
+  {
+      "id": "aib",
+      "title": "AI Builders",
+      "date": "21 Aug 2023",
+      "tags": ["Summer school", "Project-based", "AI", "Deep learning"],
+      "category": "Project",
+      "description": "A turning point into learning new skill sets",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": true
+  },
+  {
+      "id": "research-kvis",
+      "title": "Research At KVIS",
+      "date": "21 Aug 2023",
+      "tags": ["Research", "Biology", "High school"],
+      "category": "Project",
+      "description": "Experiencing this firsthand, I learned the true significance of perseverance and practicality.",
+      "content": [
+          {
+              "type": "text",
+              "value": "Large language models are flourishing in the open, but most are still built in silos. Communities can form around a model, but their contributions can take months or years to be merged back to the base model — if they make their way back at all.",
+              "position": "header"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "“There’s no good way to combine all of that innovation into a coherent whole,” said David Cox, vice president for AI models at IBM Research."
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "body"
+          },
+          {
+              "type": "video",
+              "src": "https://www.youtube.com/embed/your-video-id",
+              "position": "header"
+          },
+          {
+              "type": "text",
+              "value": "InstructLab, an open-source project launched by IBM and Red Hat in May, is designed to change that. It gives communities the tools to create and merge changes to LLMs without having to retrain the model from scratch. By making LLMs more like any other open-source software project, IBM and Red Hat hope to democratize access to generative AI."
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "body"
+          },
+          {
+              "type": "image",
+              "src": "https://via.placeholder.com/800x400",
+              "alt": "Placeholder Image",
+              "position": "header"
+          }
+      ],
+      "hidden": true
   }
-  
+]
