@@ -2,6 +2,13 @@ let pastUserInputs = [];
 let generatedResponses = [];
 let contextData = [];
 
+
+function toggleChat() {
+  const chatPopup = document.getElementById('chat-popup');
+  chatPopup.style.display = chatPopup.style.display === 'none' || chatPopup.style.display === '' ? 'flex' : 'none';
+}
+
+
 // Load context data and define the retrieval function
 async function loadAndRetrieveContext(userInput) {
   // Load context data if not already loaded
@@ -106,7 +113,7 @@ function secureQuery(data, modelUrl) {
     });
 }
 
-document.getElementById('send-btn').addEventListener('click', async () => {
+async function sendMessage() {
   const userInput = document.getElementById('user-input').value;
   if (userInput.trim() === '') return;
 
@@ -172,8 +179,19 @@ document.getElementById('send-btn').addEventListener('click', async () => {
 
   // Clear input field
   document.getElementById('user-input').value = '';
-});
 
+};
+
+// Event listeners for "Enter" key and send button click
+document.getElementById('user-input').addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') {
+    sendMessage();
+  }
+});
+document.getElementById('send-btn').addEventListener('click', sendMessage);
+
+
+// prevent dev tool
 function detectDevTools() {
   const threshold = 160;
   const widthThreshold = window.outerWidth - window.innerWidth > threshold;

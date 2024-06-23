@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hugging Face Chat</title>
+  <title>Chatbot</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>Hugging Face Chat</h2>
   <div id="chat-container">
-    <div id="messages"></div>
-    <input type="text" id="user-input" placeholder="Type a message..." />
-    <button id="send-btn">Send</button>
+    <div id="chat-bubble" onclick="toggleChat()">💬</div>
+    <div id="chat-popup">
+      <div id="messages"></div>
+      <input type="text" id="user-input" placeholder="Type a message...">
+      <button id="send-btn">Send</button>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
