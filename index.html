@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chatbot</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 </head>
 <body>
   <div id="chat-container">
     <div id="chat-bubble" onclick="toggleChat()">💬</div>
     <div id="chat-popup">
+      <div id="chat-header">Chatbot Assistant</div>
       <div id="messages"></div>
-      <input type="text" id="user-input" placeholder="Type a message...">
-      <button id="send-btn">Send</button>
+      <div id="input-container">
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button id="send-btn">
+          <span class="iconify" data-icon="mdi:send" data-inline="false"></span>
+        </button>
+      </div>
     </div>
   </div>
   <script src="script.js"></script>

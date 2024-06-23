@@ -1,0 +1,12 @@
+[
+    {
+        "id": "ms-hack",
+        "category": "Hackathon",
+        "image": "background.jpg",
+        "title": "blog ABC",
+        "date": "13 June 2024",
+        "content": "Azure cloud web app which allows a user to teach and recognize any personal objects using CLIP and vector search.",
+        "tags": ["qaz", "Flask", "Object recognition", "CLIP", "Vector search"],
+        "hidden": false
+    }
+]
