@@ -61,9 +61,9 @@ async function initializeFuse() {
     await loadContextData();
   }
   const options = {
-    keys: ['title', 'description', 'info'], // Fields to search
+    keys: ['id', 'title', 'description', 'info'], // Fields to search
     threshold: 0.72, // Sensitivity of the search
-    // distance: 100, // Maximum distance between the search term and the match
+    distance: 10, // Maximum distance between the search term and the match
     // minMatchCharLength: 3, // Minimum number of characters that must match
   };
   fuse = new Fuse(contextData, options);
@@ -85,7 +85,11 @@ async function loadAndRetrieveContext(userInput) {
   const fuseResults = fuse.search(userInput);
   // Sort results by score
   const sortedResults = fuseResults.sort((a, b) => a.score - b.score);
-  const fuseMatches = sortedResults.map(result => result.item);
+  let fuseMatches = sortedResults.map(result => result.item);
+
+  console.log(fuseMatches);
+
+  fuseMatches = fuseMatches.slice(0, 1);
 
   console.log(fuseMatches);
   
@@ -264,14 +268,14 @@ async function sendMessage() {
 
       // Update conversation history with the response
       let botResponse = response[0].generated_text;
+      generatedResponses.push(botResponse);
       
       // Append context ID if relevant context found
       if (matchedContexts.length > 0) {
+        console.log(matchedContexts)
         const contextSourcesIds = matchedContexts.map(context => `${context.source.replace('.json', '')}/${context.id}`).join(', ');
         botResponse += ` (source: ${contextSourcesIds})`;
       }         
-
-      generatedResponses.push(botResponse);
 
       // Display Hugging Face API response
       const botMessage = document.createElement('div');
